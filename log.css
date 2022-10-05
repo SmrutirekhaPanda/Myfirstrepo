@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(bkim2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.form{
+    width: 350px;
+    height: 400px;
+    background-color: #ddebf0;
+    box-shadow: 0 5px 30px #f4c4ed;
+}
+.btn button{
+    padding: 3px;
+    margin: 30px 0px 40px 30px;
+    border-style: none;
+    background-color: transparent;
+    color: black;
+    font-size: 18px;
+    font-weight: 550;
+
+}
+.formGroup{
+    display: flex;
+    justify-content: center;
+}
+.formGroup input{
+    border: none;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border-bottom: 2px solid blue;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+::placeholder{
+    color: chocolate;
+}
+input:focus{
+    outline: none;
+    border-bottom: 2px solid rgba(149, 241, 149);
+    font-size: 17px;
+    font-weight: bold;
+}
+#checkbox{
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+    padding-top: 20px;
+    
+}
+.text{
+    color: #312d2d;
+    font-size: 13px;
+
+}
+.btn2{
+    padding: 10px;
+    outline: none;
+    width: 150px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: rgb(28, 131, 28);
+    color: rgb(245, 237, 237);
+    font-weight: 600;
+}
+.btn2:hover{
+    background-color: rgb(23, 88, 23, 0.5);
+}
+.btn button:hover{
+       border-bottom: 2px solid rgb(99, 224, 99); 
+}
+.signUp{
+   display: none;
+}
+.login{
+    margin-top: 10px;
+}
+.login .checkbox{
+    margin-top: 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
